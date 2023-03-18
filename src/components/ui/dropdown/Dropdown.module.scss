@@ -1,0 +1,22 @@
+.dropdown{
+    display: inline-block;
+    cursor: pointer;
+}
+
+.dropdown__label{
+    display: flex;
+    align-items: flex-start;
+}
+
+.dropdown__label__text{
+    font-size: inherit;
+}
+
+.dropdown__label__arrow{
+    transition: var(--transition-default);
+    font-size: inherit;
+}
+
+.dropdown__menu{
+    overflow-y: hidden;
+}
