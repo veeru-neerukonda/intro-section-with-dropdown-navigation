@@ -1,0 +1,5 @@
+@mixin for-desktop-up{
+    @media only screen and (min-device-width: 1200px){
+        @content;
+    }
+}

@@ -1,0 +1,22 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Epilogue', sans-serif;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+img{
+    display: block;
+    width: 100%;
+}
