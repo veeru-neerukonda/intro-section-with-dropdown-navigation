@@ -21,7 +21,6 @@ export default function Dropdown({label,children}: PropsWithChildren<DropdownPro
         }
         else{
             setMenuOpen(!menuOpen);
-            setMouseHovering(!mouseHovering);
         }
     }
     const closeMenu = function(){
