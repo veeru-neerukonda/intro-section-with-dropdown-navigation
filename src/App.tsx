@@ -1,5 +1,6 @@
 import React from 'react';
 import Dropdown from "./components/ui/dropdown/Dropdown";
+import Button from './components/ui/Button/Button';
 
 export default function App(){
 
@@ -13,11 +14,20 @@ export default function App(){
 
     return(
         <div className='center-screen' onClick={() => onMouseClickAppWide}>
-            <Dropdown label='dropdown'>
-                <li>entry 1</li>
-                <li>entry 2</li>
-                <li>entry 3</li>
-            </Dropdown>
+            <div style={{
+                display: 'flex',
+                flexDirection: 'column',
+                justifyContent: 'center',
+                alignItems: 'center',
+                rowGap: '8px',
+                height: '100vh'
+            }}>
+                <Button label='Default'/>
+                <Button label='Register' styleModifiers='rounded' size='small'/>
+                <Button label='Helloyia' styleModifiers='rounded black bold' size='small'/>
+                <Button label='Learn More' styleModifiers='rounded black bold' size='big'/>
+            </div>
+            
         </div>
     )
 }
